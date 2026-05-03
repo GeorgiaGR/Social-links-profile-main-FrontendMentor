@@ -1,0 +1,95 @@
+body {
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 20px;
+}
+
+h1 { 
+    font-size: 18px;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 11px;
+    margin-top: 0;
+}
+
+p {
+    color: hsl(0, 0%, 80%);
+    font-size: 13px;
+}
+
+h1,h2,p {
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+}
+
+li {  
+    background-color: hsl(0, 0%, 20%);
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 7px;
+    padding: 1em;
+    margin: 1em 1.5em;
+}
+
+li:last-child {
+    margin-bottom: 1.5em;
+}
+
+a {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+a:hover {
+    color: hsl(0, 0%, 20%);
+}
+
+/* tablet */
+@media (min-width: 768px) {
+    .card {
+        max-width: 40%;
+    }
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+    .card {
+        max-width: 25%;
+    }
+}
